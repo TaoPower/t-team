@@ -1,0 +1,155 @@
+/* Navbar Base Styles */
+.t-navbar {
+  position: fixed;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  z-index: 1000;
+  border-radius: 100px;
+  background: rgba(30, 30, 30, 0.6);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.t-navbar.scrolled {
+  top: 1rem;
+  width: 85%;
+  background: rgba(20, 20, 20, 0.8);
+  border-color: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1.5rem;
+}
+
+/* --- Left Section (Logo) --- */
+.t-nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.t-nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.t-nav-logo img {
+  height: 32px;
+  width: auto;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2));
+}
+
+.t-logo-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.t-nav-brand {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.t-brand-name {
+  font-family: "MuseoModerno", cursive;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.t-brand-sub {
+  font-size: 0.7rem;
+  color: #a1a1aa;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* --- Center Section --- */
+.t-nav-center {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.3rem;
+  border-radius: 100px;
+}
+
+.t-nav-item {
+  color: #d1d5db;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.t-nav-item:hover {
+  color: #fff;
+}
+
+.t-nav-item.active {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+/* --- Right Section --- */
+.t-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.t-nav-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.t-lang-btn {
+  background: transparent;
+  border: none;
+  color: #d1d5db;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.t-lang-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.t-discord-btn {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.t-discord-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1024px) {
+  .t-nav-center {
+    display: none;
+  }
+}
