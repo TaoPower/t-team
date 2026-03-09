@@ -36,7 +36,7 @@ const Navbar = ({ scrolled }) => {
         <button onClick={toggleLanguage} className="t-lang-btn" title="Change Language">
           <Languages size={18} />
         </button>
-        <a href="https://discord.gg/yourlink" className="t-discord-btn">
+        <a href="https://discord.gg/CXCAQzH3k8" className="t-discord-btn">
           Discord
         </a>
       </div>
@@ -45,3 +45,4 @@ const Navbar = ({ scrolled }) => {
 };
 
 export default Navbar;
+
