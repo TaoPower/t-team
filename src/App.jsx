@@ -85,7 +85,7 @@ function App() {
         {/* Skills Section */}
         <section id="features" className="features" style={{ paddingTop: '8rem', paddingBottom: '5rem', background: 'radial-gradient(circle at center, rgba(126, 34, 206, 0.03) 0%, transparent 70%)' }}>
             <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
-                <h2 className="section-title" data-aos="fade-up" style={{ fontFamily: '"MuseoModerno", cursive', fontSize: '2.5rem', marginBottom: '1rem', textTransform: 'uppercase' }}>KỸ THUẬT T-TEAM - TEAM</h2>
+                <h2 className="section-title" data-aos="fade-up" style={{ fontFamily: '"MuseoModerno", cursive', fontSize: '2.5rem', marginBottom: '1rem', textTransform: 'uppercase' }}>KỸ THUẬT T - TEAM</h2>
                 <p data-aos="fade-up" data-aos-delay="100" style={{ color: '#71717a', fontSize: '0.95rem', maxWidth: '600px', margin: '0 auto' }}>Đây là những kỹ năng mà tôi đã học hỏi và phát triển trong quá trình làm việc.</p>
             </div>
             
