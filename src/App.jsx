@@ -129,6 +129,7 @@ function App() {
                     { name: 'SÀI GÒN LIFE | ROLEPLAY', status: 'Coming Soon', color: '#eab308', img: '/img/project2.png', discord: 'https://discord.gg/mggPqhHN9k' },
                     { name: 'COCONUT CITY', status: 'Offline', color: '#ef4444', img: '/img/project1.png', discord: 'https://discord.gg/#' },
                     { name: 'CHERRY TOWN', status: 'Offline', color: '#ef4444', img: '/img/project3.png', discord: 'https://discord.gg/#' },
+                    { name: 'TRAP CITY', status: 'Partner', color: '#1ABC9C', img: '/img/project3.png', discord: 'https://discord.gg/4kHQkUZqxg' },
                 ].map((project, idx) => (
                     <div key={idx} className="feature-card project-card" data-aos="fade-up" data-aos-delay={200 + (idx * 100)} style={{ background: 'rgba(20, 20, 20, 0.6)', border: '1px solid rgba(255, 255, 255, 0.05)', borderRadius: '20px', padding: '1.2rem' }}>
                         <div style={{ width: '100%', aspectRatio: '1/1', borderRadius: '12px', overflow: 'hidden', marginBottom: '1.2rem' }}>
